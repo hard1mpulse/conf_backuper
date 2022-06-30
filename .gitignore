@@ -1,2 +1,6 @@
 # ignore user data
 /data
+# ignore logs
+/logs
+# ignore backups
+/backups
