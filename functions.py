@@ -1,4 +1,5 @@
 import csv
+from routeros_ssh_connector import MikrotikDevice
 def read_data_from_csv(path):
     with open(path) as datafile:
         data={}
