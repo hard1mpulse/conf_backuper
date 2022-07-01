@@ -1,3 +1,4 @@
+import os
 ### Default paths of data
 devices_path=os.getcwd()+'/'+'data/devices.csv'
 credentials_path=os.getcwd()+'/'+'data/credentials.csv'
