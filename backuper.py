@@ -1,12 +1,8 @@
 #!/usr/bin/env python3
 import time
 import os
+from config.ini import devices_path,credentials_path,backups_path,logs_path
 from functions import read_data_from_csv,get_backup_from_mikrotik
-#Default paths
-devices_path=os.path.abspath(__file__).strip('backuper.py')+'data/devices.csv'
-credentials_path=os.path.abspath(__file__).strip('backuper.py')+'data/credentials.csv'
-backups_path=os.path.abspath(__file__).strip('backuper.py')+'backups/'
-logs_path=os.path.abspath(__file__).strip('backuper.py')+'logs/'
 
 devices=read_data_from_csv(devices_path)
 credentials=read_data_from_csv(credentials_path)
