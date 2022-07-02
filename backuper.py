@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 import time
 import os
-from config.ini import devices_path,credentials_path,backups_path,logs_path
+from config import devices_path,credentials_path,backups_path,logs_path
 from functions import read_data_from_csv,get_backup_from_mikrotik
 
 devices=read_data_from_csv(devices_path)
